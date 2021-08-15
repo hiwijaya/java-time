@@ -12,6 +12,7 @@ public class InstantTest {
     @Test
     void create() {
 
+        // Instant is millisecond implementation
         Instant instant1 = Instant.now();
         System.out.println(instant1);
 
